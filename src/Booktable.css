@@ -1,0 +1,61 @@
+.fade-in {
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.root {
+    margin-bottom: 20px;
+}
+
+.table-container {
+    margin-top: 20px;
+    /* Adjust the margin as needed */
+}
+
+.root-container {
+    margin-top: 30px;
+}
+
+/* Booktable.css */
+
+.pagination {
+    display: flex;
+    justify-content: flex-end;
+    /* Align to the right */
+    margin-top: 10px;
+    /* Adjust as needed */
+}
+
+.pagination select,
+.pagination button {
+    margin-left: 5px;
+    /* Adjust the spacing between the dropdown and buttons */
+}
+
+.pagination button {
+    background-color: #4CAF50;
+    /* Green background color */
+    color: white;
+    border: 1px solid #4CAF50;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.pagination button:hover {
+    background-color: #45a049;
+    /* Darker green color on hover */
+}
